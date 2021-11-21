@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(56, 56, 55);
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10em;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainInput {
+  height: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  border-style: none;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+}
+
+ul {
+  color: white;
+  list-style: none;
+}
